@@ -1,0 +1,58 @@
+
+<!Doctype>
+<html lang="en">
+	<head>
+
+		<link rel="stylesheet" href="style.css">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+	</head>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<<body onload="geoloc()">
+		
+		<center>
+			<h1 style="color:White">ATTENDANCE BOOK</h1>
+
+		</center>
+		<img id="im1" src="L.jpg"></img>
+		 <center>
+			<div >
+			 <form action="mailto:iversonamoako@gmail.com" method="post" enctype="text/plain" id="form">
+			  
+			    <input id="select" list="name" name="Staff" placeholder="Select/Type Your Name" required>
+				<datalist id="name" required>
+				  <option value="Emele A.Hayford">
+				  <option value="John D.Boateng">
+				  <option value="Amy Asiedu">
+				  <option value="Ali Seidu">
+				  <option value="Lamptey Lawrence">
+				  <option value="Jessica Mintah">
+				  <option value="Henry Asante">
+				  <option value="Alfred Kofi Gaglo">
+				  <option value="Mark Marcel">
+				  <option value="Emmanuel o.Mensah">
+				  <option value="Daniel Olukoya">
+				  <option value="Jonathan Bunhguh">
+				  <option value="Carolyn K.Asiamah">
+				  <option value="Stephen Boison">
+				  <option value="Nana Ama A. Sackey">
+				  <option value="Ralph Addo">
+				  <option value="Mark Marcel">
+				  <option value="Alehu Nuunu">
+				  <option value="Kofi Amoako Yeboah">
+                  </datalist>
+				<p id="f">
+				<input type="radio" name="when" required>Arrival</input>
+				<input type="radio" name="when" required>Departure</input>
+				</p>
+	
+				<p id="f"><time id="time"></time></p>
+				<br>
+				<p id = 'mapdiv'></p>
+		        
+				<input id="s"type="submit" value="Submit">
+            </form>
+		   </div> 
+		 </center>
+	</body>
+	<script src="main.js"></script>
+</html>
